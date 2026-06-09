@@ -1,25 +1,30 @@
-body {margin: 0
-    font-family: Helvetica, sans-serif;}
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
 
 nav {
-    position:fixed
+    position: fixed;
     top: 0;
-    width: 100%;
-    background-color: #FFE3DE;
-    overflow: hidden;
 }
 
 nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin-right: 20px;
 }
-.Galería {
+.galeria {
     display: flex;
     justify-content: center;
 }
-.Imagen {
-    width: 100px;
+.imagen img{
+    width: 300px;
     height: auto;
+    filter: grayscale(90%);
     margin: 10px;
+}
+.imagen img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
