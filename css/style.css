@@ -1,0 +1,16 @@
+body {margin: 0
+    font-family: Helvetica, sans-serif;}
+
+nav {
+    position:fixed
+    top: 0;
+    width: 100%;
+    background-color: #FFE3DE;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
