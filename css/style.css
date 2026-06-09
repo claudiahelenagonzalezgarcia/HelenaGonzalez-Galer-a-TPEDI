@@ -14,3 +14,12 @@ nav a {
     text-decoration: none;
     margin-right: 20px;
 }
+.Galería {
+    display: flex;
+    justify-content: center;
+}
+.Imagen {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
