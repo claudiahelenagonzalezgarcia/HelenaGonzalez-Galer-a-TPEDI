@@ -1,2 +1,2 @@
 # HelenaGonzalez-Galería-TPEDI
-Galría de imágenes (extraordinaria)
+Galería de imágenes (extraordinaria)
